@@ -1,0 +1,245 @@
+@charset "utf-8" ;
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import "http://fonts.googleapis.com/css?family=Quicksand:700,400";
+
+/* section contact */
+#contatti{
+    background-color: #F8C471  ;
+    font-family: "Trebuchet MS", Arial;
+    letter-spacing: 2px;
+    }
+  #contatti a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Arial;
+  }
+  
+  
+  @media (max-width: 575.98px) {
+  
+    #contatti{padding-bottom: 800px;}
+    #contatti .maps iframe{
+      width: 100%;
+      height: 450px;
+    }
+   }
+  
+  
+  @media (min-width: 576px) {
+  
+     #contatti{padding-bottom: 800px;
+     }
+  
+     #contatti .maps iframe{
+      font-family: "Trebuchet MS", Arial;
+       width: 100%;
+       height: 450px;
+     }
+   }
+  
+  @media (min-width: 768px) {
+  
+    #contatti{padding-bottom: 350px;}
+  
+    #contatti .maps iframe{
+      width: 100%;
+      height: 850px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #contatti{padding-bottom: 200px;}
+  
+     #contatti .maps iframe{
+       width: 100%;
+       height: 700px;
+     }
+  }
+  
+  
+  #author a{
+    color: #F8C471;
+    text-decoration:none;
+  
+    font-family: "Trebuchet MS", Arial;  
+  }
+
+  /* fin section contact */
+
+/* section footer */
+.credits {
+    font-size: 12px;
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+    font-family: arial;
+    border-top: white 1px solid;
+    width: 80%;
+    padding-top: 10px;
+    font-family: "Trebuchet MS", Arial;
+}
+
+.foot-sect {
+    width: 100%;
+    margin-top: 30px;
+    white-space: nowrap;
+}
+
+.foot-sect-current {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    width: 100%;
+    white-space: nowrap;
+    border-left: double rgb(0, 0, 0) 4px;
+    padding-bottom: 5px;
+    font-family: "Trebuchet MS", Arial;
+}
+
+.foot-sect-current > .foot-link {
+    color: white;
+    border-bottom: solid 1px white;
+    display: block;
+    padding: 12px;
+    font-size: 14px;
+    }
+.foot-sect-current > .foot-link:hover {
+    color: white;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Arial;
+    border-bottom: none;
+  }
+.foot-link {
+    color: black;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Arial;
+  margin-right: 2px;
+  margin-left: 8px;
+  border-bottom: black 1px solid;
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.foot-link:hover {
+    background-color: #ffffff;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Arial;
+    color: black;
+    }
+.foot-link-current {
+  color: #ffffff;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Arial;
+    margin-right: 2px;
+    margin-left: 8px;
+    border-bottom: #ED2939 1px solid;
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+}
+.foot-link-current:hover {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Arial;
+}
+.foot-link-current:active {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Arial;
+}
+.foot-subt {
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 3px;
+}
+.foot-subt-current {
+    font-weight: 600;
+    color: red;
+}
+footer {
+    width: 100%;
+    background-color: #F8C471;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+article h5{
+  text-align: center; 
+  font-family: "Trebuchet MS", Arial;
+}
+
+/* Bouton scroll up */
+.myBtn {
+    display: none; /* Hidden by default */
+    padding-right: 10px;
+    margin-right: 10px;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #F8C471; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    display: none;
+}
+
+.myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+
+}
+
+/* icones reseaux sociaux */
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: rgb(16, 194, 75);
+ }
+ #social-tw:hover {
+     color: hsl(212, 55%, 68%);
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+ 
+.center p{
+    text-align: center; 
+    font-family: "Trebuchet MS", Arial;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* fin footer */

@@ -1,0 +1,409 @@
+@charset "utf-8" ;
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import "http://fonts.googleapis.com/css?family=Quicksand:700,400";
+
+/* parti body*/
+/* font family*/
+body, html{
+  padding: #;
+  margin: #;
+}
+
+body{
+  font-family: '';
+}
+
+a,a:hover {
+  text-decoration: none;
+  font-family: "Trebuchet MS", Arial;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+/* The overlay effect with black background */
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9); /* Black with a little bit see-through */
+}
+
+/* partie header*/
+ .header {
+  background-color: #F8C471;
+  height: 70px;
+  line-height: 70px;
+}
+.logo{
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  float: left;
+  padding-left: 70px;
+}
+.menu{
+  font-family: "Trebuchet MS", Arial;
+  float: right;
+}
+.menu a{
+  color: #ffffff;
+  margin-right: 20px;
+  font-family: "Trebuchet MS", Arial;
+}
+.menu a:hover{
+  color: black;
+  font-family: "Trebuchet MS", Arial;
+}
+/* fin partie header */
+
+/* The content */
+.overlay-content {
+  font-family: "Trebuchet MS", Arial;
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+/* Close button */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+/* formulaire de recherche */
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: right;
+  width: 80%;
+  background: white;
+  font-family: "Trebuchet MS", Arial;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.overlay button {
+  float: right;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #bbb;
+}
+
+.separator{
+  height: 3px;
+  width: 5%;
+  border:none;
+  box-shadow: none;
+  background-color: #F8C471;
+}
+
+/* parti bannière*/
+.banner{
+  width: 100%;
+  max-width: 100%;
+}
+.ban{
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.ban img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.inner-banner{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.inner-banner h1{
+  color: #ffffff;
+  text-shadow: 1px 1px 20px color:#ffffff;
+  font-family: "Trebuchet MS", Arial;
+}
+
+.inner-banner marquee{
+  position: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 15px color:#ffffff;
+  font-family: "Trebuchet MS", Arial;
+}
+
+.inner-banner .btn-custom{
+  background-color: #F8C471;
+  color: #ffffff;
+}
+
+.inner-banner .btn-custom:hover{
+  background-color: gray;
+}
+
+/* parti about*/
+.about {
+  text-align: center; 
+  font-family: "Trebuchet MS", Arial;
+  padding-top: 5%;
+}
+/*
+.about article{
+  margin-top: 5%;
+}
+
+.about article h2{
+  text-align: center; 
+  font-family: "Trebuchet MS", Arial;
+} */
+/* fin parti about*/
+
+
+/* parti offres*/ 
+ 
+.module {
+  position: relative;
+  padding: 70px 0px 70px 0px;
+}
+.services .service-item {
+  background: #F8C471;
+  padding: 0% 10% 12% 10%;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 14px;
+  position: relative;
+  z-index: 10;
+}
+.shadow-hover {
+  transition: all 0.4s linear;
+}
+
+.shadow-hover:hover {
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+}
+.services {
+  padding-top: 0;
+}
+.services .service-item .fa {
+  width: 110px;
+  height: 110px;
+  color: white;
+  background: #003366;
+  font-size: 45px;
+  padding-top: 25px;
+  border-radius: 100px;
+  margin-top: -40px;
+  margin-bottom: 30px;
+  border: 5px solid white;
+  transition: all 0.4s;
+}
+
+.services .service-item h4 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #111111;
+  margin-bottom: 20px;
+}
+
+#offre{
+  text-align: center;
+  background:#ffffff;
+  text-align: center; 
+  font-family: "Trebuchet MS", Arial;
+  background-color:#FCF3CF;
+}
+
+.box > .icon { text-align: center; position: relative; }
+.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background:#F8C471; vertical-align: middle; }
+.box > .icon:hover > .image { background: #6CB4C4; }
+.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+.box > .icon:hover > .image > i { color: white !important; }
+.box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #F8C471; padding: 15px 0 10px 0; }
+.box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #F8C471; color: rgb(0, 0, 0); }
+.box > .icon > .info > h2.title { font-family: "Quicksand",sans-serif !important; font-size: 28px; color: rgb(0, 0, 0); font-weight: 500; }
+.box > .icon > .info > p {font-family: "Quicksand",sans-serif !important; font-size: 15px; color: rgba(0, 0, 0, 0.937)line-height: 1.5em; margin: 20px;}
+.box > .icon > .info > .more a { font-family: "Quicksand",sans-serif !important; font-size: 12px; color: rgb(0, 0, 0); line-height: 12px; text-transform: uppercase; text-decoration: none; }
+.box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: rgb(73, 99, 214); }
+.box .space { height: 2px; background-color: #6CB4C4;}
+.btn-default { font-family: "Quicksand",sans-serif; background-color: #f09834; color: #FFFFFF;}
+.btn-default:hover { background-color: #FFFFFF; color: black;}
+
+/*========================================================*/
+/***** fin parti offres ******/
+/***** Section a propos *******/
+section{
+	padding: 60px 0;
+}
+section .section-title{
+	text-align:center;
+	color:#0c0c0c;
+	margin-bottom:50px;
+	text-transform:uppercase;
+}
+#what-we-do{
+  background:#ffffff;
+  text-align: center; 
+  font-family: "Trebuchet MS", Arial;
+  background-color:#FCF3CF;
+}
+#what-we-do .card{
+	padding: 1rem!important;
+	border: none;
+	margin-bottom:1rem;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#what-we-do .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+	color: #0c0c0c; !important;
+	font-weight:700;
+	text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+	display:none;
+	
+}
+#what-we-do .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	
+}
+#what-we-do .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #0c0c0c;;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before{
+    content: "\f0c0";
+}
+#what-we-do .card .block-2:before{
+    content: "\f0eb";
+}
+#what-we-do .card .block-3:before{
+    content: "\f1cc";
+}
+#what-we-do .card .block-4:before{
+    content: "\f12e";
+}
+#what-we-do .card .block-5:before{
+    content: "\f201";
+}
+#what-we-do .card .block-6:before{
+    content: "\f0e8";
+}
+
+#what-we-do .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+/***** Fin Section a propos *******/
+
+/* Section gest */
+#gest{
+  text-align: center;
+  background:#ffffff;
+  text-align: center; 
+  font-family: "Trebuchet MS", Arial;
+  background-color:#FCF3CF;
+}
+.wrap {
+  display: flex;
+  background: white;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.wrap:hover {
+  background: linear-gradient(135deg,#ffef63 0%,#bb7519 100%);
+  color: white;
+}
+
+.ico-wrap {
+  margin: auto;
+}
+
+.mbr-iconfont {
+  font-size: 4.5rem !important;
+  color: #313131;
+  margin: 1rem;
+  padding-right: 1rem;
+}
+.vcenter {
+  margin: auto;
+}
+
+.mbr-section-title3 {
+  text-align: left;
+}
+h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0px;
+}
+.display-5 {
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 1.4rem;
+}
+.mbr-bold {
+  font-weight: 700;
+}
+
+p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 25px;
+}
+.display-6 {
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 1re
+
+/* Fin Section gest */

@@ -6,8 +6,8 @@
 /* parti body*/
 /* font family*/
 body, html{
-  padding: #;
-  margin: #;
+  padding: 0;
+  margin: 0;
 }
 
 body{
@@ -20,7 +20,7 @@ a,a:hover {
 }
 
 .container-fluid{
-  padding: 0;
+  padding: 0px;
 }
 
 /* The overlay effect with black background */
@@ -39,9 +39,10 @@ a,a:hover {
 
 /* partie header*/
  .header {
-  background-color: #F8C471;
+  background-color: #C17B4C;
   height: 70px;
   line-height: 70px;
+  /* position: fixed; */
 }
 .logo{
   text-transform: uppercase;
@@ -125,7 +126,7 @@ a,a:hover {
   width: 5%;
   border:none;
   box-shadow: none;
-  background-color: #F8C471;
+  background-color: #C17B4C;
 }
 
 /* parti bannière*/
@@ -179,17 +180,6 @@ a,a:hover {
   font-family: "Trebuchet MS", Arial;
   padding-top: 5%;
 }
-/*
-.about article{
-  margin-top: 5%;
-}
-
-.about article h2{
-  text-align: center; 
-  font-family: "Trebuchet MS", Arial;
-} */
-/* fin parti about*/
-
 
 /* parti offres*/ 
  
@@ -198,7 +188,7 @@ a,a:hover {
   padding: 70px 0px 70px 0px;
 }
 .services .service-item {
-  background: #F8C471;
+  background: #C17B4C;
   padding: 0% 10% 12% 10%;
   text-align: center;
   line-height: 1.6;
@@ -220,7 +210,7 @@ a,a:hover {
   width: 110px;
   height: 110px;
   color: white;
-  background: #003366;
+  background: #f0ad60;
   font-size: 45px;
   padding-top: 25px;
   border-radius: 100px;
@@ -243,18 +233,36 @@ a,a:hover {
   text-align: center; 
   font-family: "Trebuchet MS", Arial;
   background-color:#FCF3CF;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .box > .icon { text-align: center; position: relative; }
-.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background:#F8C471; vertical-align: middle; }
+.box > .icon > .image { 
+  position: relative; z-index: 2; margin: auto; 
+  width: 88px; height: 88px; border: 8px solid white; line-height: 88px; 
+  border-radius: 50%; background:#F8C471; 
+  vertical-align: middle; 
+}
 .box > .icon:hover > .image { background: #6CB4C4; }
 .box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
 .box > .icon:hover > .image > i { color: white !important; }
 .box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #F8C471; padding: 15px 0 10px 0; }
 .box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #F8C471; color: rgb(0, 0, 0); }
-.box > .icon > .info > h2.title { font-family: "Quicksand",sans-serif !important; font-size: 28px; color: rgb(0, 0, 0); font-weight: 500; }
-.box > .icon > .info > p {font-family: "Quicksand",sans-serif !important; font-size: 15px; color: rgba(0, 0, 0, 0.937)line-height: 1.5em; margin: 20px;}
-.box > .icon > .info > .more a { font-family: "Quicksand",sans-serif !important; font-size: 12px; color: rgb(0, 0, 0); line-height: 12px; text-transform: uppercase; text-decoration: none; }
+
+.box > .icon > .info > h2.title { 
+    font-family: "Quicksand",sans-serif !important; 
+    font-size: 20px; 
+    color: rgb(0, 0, 0); 
+    font-weight: 500; 
+  }
+.box > .icon > .info > p {
+  font-family: "Quicksand",sans-serif !important; font-size: 15px; 
+  color: rgba(0, 0, 0, 0.937)line-height: 1.5em; margin: 20px;
+}
+.box > .icon > .info > .more a { font-family: "Quicksand",sans-serif !important; 
+  font-size: 12px; color: rgb(0, 0, 0); line-height: 12px; text-transform: uppercase; text-decoration: none; 
+}
 .box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: rgb(73, 99, 214); }
 .box .space { height: 2px; background-color: #6CB4C4;}
 .btn-default { font-family: "Quicksand",sans-serif; background-color: #f09834; color: #FFFFFF;}
@@ -263,6 +271,7 @@ a,a:hover {
 /*========================================================*/
 /***** fin parti offres ******/
 /***** Section a propos *******/
+
 section{
 	padding: 60px 0;
 }
@@ -277,6 +286,7 @@ section .section-title{
   text-align: center; 
   font-family: "Trebuchet MS", Arial;
   background-color:#FCF3CF;
+  margin-top: 10px;
 }
 #what-we-do .card{
 	padding: 1rem!important;
@@ -319,22 +329,22 @@ section .section-title{
     transition:transform .2s ease-in-out;
 }
 #what-we-do .card .block-1:before{
-    content: "\f0c0";
+    content: "\f1cc";
 }
 #what-we-do .card .block-2:before{
     content: "\f0eb";
 }
 #what-we-do .card .block-3:before{
-    content: "\f1cc";
+    content: "\f0e8";
 }
 #what-we-do .card .block-4:before{
-    content: "\f12e";
+    content: "\f0c0";
 }
 #what-we-do .card .block-5:before{
-    content: "\f201";
+    content: "\f12e";
 }
 #what-we-do .card .block-6:before{
-    content: "\f0e8";
+    content: "\f201";
 }
 
 #what-we-do .card:hover .card-block:before{
@@ -342,12 +352,16 @@ section .section-title{
 	transform: rotate(360deg);	
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
-	transition: .5s all ease;
+  transition: .5s all ease;
+  font-family: "Trebuchet MS", Arial;
 }
 /***** Fin Section a propos *******/
 
 /* Section gest */
 #gest{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 0px;
   text-align: center;
   background:#ffffff;
   text-align: center; 
@@ -361,11 +375,13 @@ section .section-title{
   border-radius: 0.5rem;
   box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
   margin-bottom: 2rem;
+  font-family: "Trebuchet MS", Arial;
 }
 
 .wrap:hover {
   background: linear-gradient(135deg,#ffef63 0%,#bb7519 100%);
   color: white;
+  font-family: "Trebuchet MS", Arial;
 }
 
 .ico-wrap {
@@ -377,6 +393,7 @@ section .section-title{
   color: #313131;
   margin: 1rem;
   padding-right: 1rem;
+  font-family: "Trebuchet MS", Arial;
 }
 .vcenter {
   margin: auto;
@@ -385,12 +402,15 @@ section .section-title{
 .mbr-section-title3 {
   text-align: left;
 }
+
 h2 {
-  margin-top: 0.5rem;
+  padding-top: 0px;
+  margin-top: 0px;
   margin-bottom: 0px;
+  font-size: 20px;
 }
 .display-5 {
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: "Trebuchet MS", Arial;
   font-size: 1.4rem;
 }
 .mbr-bold {
@@ -403,7 +423,59 @@ p {
   line-height: 25px;
 }
 .display-6 {
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: "Trebuchet MS", Arial;
   font-size: 1re
+
+.read-more-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease;
+  }
+  
+  .read-more-toggle {
+    display: none;
+  }
+  
+  .read-more-toggle-label {
+    display: inline-block;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    margin: .5em;
+    font-size: .8em;
+    background: #555;
+    color: white;
+    font-family: "Trebuchet MS", Arial;
+  }
+  
+  .read-more-toggle-label:after {
+    content: "More";
+    display: inline-block;
+    font-family: "Trebuchet MS", Arial;
+  }
+  
+  .read-more-toggle:checked + .read-more-content {
+    display: block;
+    /* css animation won't work with "auto"; set to some height larger
+    than the content */
+    max-height: 1000px;
+    font-family: "Trebuchet MS", Arial;
+  }
+  
+  .read-more-toggle:checked + .read-more-content + .read-more-toggle-label:after {
+    content: "Less";
+    font-family: "Trebuchet MS", Arial;
+  }
+  
+  article {
+    border-bottom: 1px solid black;
+    font-family: "Trebuchet MS", Arial;
+  }
+  
+  article p {
+    margin-bottom: .5em;
+    font-family: "Trebuchet MS", Arial;
+  }
 
 /* Fin Section gest */

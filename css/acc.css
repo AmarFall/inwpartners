@@ -1,0 +1,53 @@
+/***********************************************/
+/***************** ACCUEIL ********************/
+/***********************************************/
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#accueil{
+    font-family: "Trebuchet MS", Arial;
+    font-size: 16px;
+    color: black;
+    background-color:#FCF3CF;
+    margin-top: 10px;
+    padding-top: 0px;
+    line-height:18px;
+}
+
+.h3{
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial;
+    color: black;
+}
+
+.h2{
+    font-size: 20px;
+    font-family: "Trebuchet MS", Arial;
+}
+
+
+#accueil .silver-package {
+    -webkit-box-shadow: 2px 7px 30px 0px rgba(179, 172, 179, 1);
+    -moz-box-shadow: 2px 7px 30px 0px rgba(179, 172, 179, 1);
+    box-shadow: 2px 7px 30px 0px rgba(179, 172, 179, 1);
+}
+
+#accueil .gold-package ul li,
+#accueil .silver-package ul li {
+    padding-left: 50px;
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+#accueil .gold-package ul li:before,
+#accueil .silver-package ul li:before {
+    font-family: FontAwesome;
+    content: "\f058";
+    position: absolute;
+    font-size: 16px;
+    color: #C17B4C;
+    left: 0;
+    top: 0;
+}
+
